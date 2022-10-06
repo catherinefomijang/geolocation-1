@@ -8,7 +8,7 @@ pipeline {
   maven 'M2_HOME'
 }
 environment {
-    registry = '076892551558.dkr.ecr.us-east-1.amazonaws.com/jenkins'
+    registry = '941845110425.dkr.ecr.us-east-1.amazonaws.com/jenkins2'
     registryCredential = 'aws_ecr_id'
     dockerimage = ''
 }
